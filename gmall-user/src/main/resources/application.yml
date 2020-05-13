@@ -4,7 +4,7 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/gmall?serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/gamll?serverTimezone=UTC
 #   数据源其他配置
     initialSize: 5
     minIdle: 5
@@ -22,3 +22,10 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+   root: info
+#日志级别
