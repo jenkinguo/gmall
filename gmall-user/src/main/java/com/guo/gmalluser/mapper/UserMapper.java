@@ -1,6 +1,6 @@
 package com.guo.gmalluser.mapper;
 
-import com.guo.gmalluser.bean.UmsMember;
+import com.guo.gmall.bean.UmsMember;
 import tk.mybatis.mapper.common.Mapper;
 
 /**

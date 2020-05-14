@@ -1,8 +1,8 @@
 package com.guo.gmalluser.service.impl;
 
-import com.guo.gmalluser.bean.UmsMember;
+import com.guo.gmall.bean.UmsMember;
+import com.guo.gmall.service.UserService;
 import com.guo.gmalluser.mapper.UserMapper;
-import com.guo.gmalluser.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

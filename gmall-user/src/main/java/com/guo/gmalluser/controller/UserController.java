@@ -1,7 +1,7 @@
 package com.guo.gmalluser.controller;
 
-import com.guo.gmalluser.bean.UmsMember;
-import com.guo.gmalluser.service.UserService;
+import com.guo.gmall.bean.UmsMember;
+import com.guo.gmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

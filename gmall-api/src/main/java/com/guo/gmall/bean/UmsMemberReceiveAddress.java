@@ -1,4 +1,4 @@
-package com.guo.gmalluser.bean;
+package com.guo.gmall.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
