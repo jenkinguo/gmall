@@ -1,0 +1,16 @@
+package com.guo.gmall.user.mapper;
+
+import com.guo.gmall.bean.UmsMember;
+import tk.mybatis.mapper.common.Mapper;
+
+/**
+ * @author : JenkinGuo
+ * @program: gmall
+ * @description
+ * @date : 2020-05-13 17:18
+ **/
+public interface UserMapper extends Mapper<UmsMember> {
+
+    //@Select("select * from ums_member")
+    //List<UmsMember> selectAllUser();
+}
